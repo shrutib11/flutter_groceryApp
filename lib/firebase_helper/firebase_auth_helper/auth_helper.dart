@@ -57,13 +57,6 @@ class AuthHelper {
     try {
       showLoaderDialog(context);
       _auth.currentUser!.updatePassword(password);
-      // showLoaderDialog(context);
-      // UserCredential userCredential = await _auth
-      //     .createUserWithEmailAndPassword(email: email, password: password);
-      // UserModel userModel = UserModel(
-      //     id: userCredential.user!.uid, name: name, email: email, image: null);
-
-      // _firestore.collection("users").doc(userModel.id).set(userModel.toJson());
       Navigator.of(context, rootNavigator: true).pop();
       showMessage("Password changed");
       Navigator.of(context).pop();

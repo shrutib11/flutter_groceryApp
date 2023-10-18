@@ -26,24 +26,6 @@ class Welcome extends StatelessWidget {
               AssetsImages.instance.welcomeImage,
             ),
           ),
-          // Row(mainAxisAlignment: MainAxisAlignment.center, children: [
-          //   CupertinoButton(
-          //     onPressed: () {},
-          //     padding: EdgeInsets.zero,
-          //     child: Image.asset(
-          //       AssetsImages.instance.facebooklogo,
-          //       scale: 15.0,
-          //     ),
-          //   ),
-          //   CupertinoButton(
-          //     onPressed: () {},
-          //     padding: EdgeInsets.zero,
-          //     child: Image.asset(
-          //       AssetsImages.instance.googlelogo,
-          //       scale: 15.0,
-          //     ),
-          //   )
-          // ]),
           const SizedBox(
             height: 30.0,
           ),

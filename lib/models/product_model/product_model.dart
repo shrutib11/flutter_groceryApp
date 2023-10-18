@@ -24,6 +24,7 @@ class ProductModel {
   int? quantity;
 
   factory ProductModel.fromJson(Map<String, dynamic> json) => ProductModel(
+        //deserialization
         image: json["image"],
         id: json["id"],
         isFavourite: false,
@@ -34,6 +35,7 @@ class ProductModel {
       );
 
   Map<String, dynamic> toJson() => {
+        //serialization
         "id": id,
         "name": name,
         "image": image,
